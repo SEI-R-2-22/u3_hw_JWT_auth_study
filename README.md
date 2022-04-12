@@ -63,7 +63,7 @@ We want to prevent anyone with access to the database from stealing the password
 Paste your encoded JWT below:
 
 ```
-<--- ANSWER GOES HERE --->
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6Implbm5hIiwiZW1haWwiOiJqZW5uYUBnYS5jbyJ9._Wr-q8lfwi-qjP6g3Rps5Lsw6X06QjHgzXTjuArWS7k
 ```
 
 **Bonus**: Read https://blog.angular-university.io/angular-jwt
