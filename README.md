@@ -41,7 +41,7 @@ We need authentication to ensure that an app's users can access specific informa
 2. What is the point of a [JSON Web Token](https://jwt.io/introduction)? Why would we want to use it?
 
 ```
-<--- ANSWER GOES HERE --->
+A JSON Web Token, or JWT, provides a secure container for data exchanged through a network. A JWT is used to protect information that is being transferred.
 ```
 
 3. Why would we hash a user's password when they sign up? What's the point?
