@@ -47,7 +47,7 @@ A JSON Web Token, or JWT, provides a secure container for data exchanged through
 3. Why would we hash a user's password when they sign up? What's the point?
 
 ```
-<--- ANSWER GOES HERE --->
+We want to prevent anyone with access to the database from stealing the password/tampering with it, which would be possible if the password was stored directly in the database without a hash appended to it. We want to protect a user's password.
 ```
 
 4. Go [here](https://jwt.io). Create a JWT with the following as the payload (feel free to change the username/email):
