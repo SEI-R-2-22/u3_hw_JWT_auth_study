@@ -35,18 +35,20 @@ Answer the following questions:
 1. Why do we need authentication in our Web Apps?
 
 ```
-<--- ANSWER GOES HERE --->
+Authentication provide web apps the ability to personalize data for each user, and authentication keep user information safe from other users.
 ```
 
 2. What is the point of a [JSON Web Token](https://jwt.io/introduction)? Why would we want to use it?
 
 ```
-<--- ANSWER GOES HERE --->
+JWT is use to authicate information pass between the client and server.
+We use JWT because it provides encyption and signature to our data, while it is being pass between server and client. JWT objects are accessible only by a secret key only the server and client know.
 ```
 
 3. Why would we hash a user's password when they sign up? What's the point?
 
 ```
+we hash the user's password to create a secret key which both the client and server uses to verify the user, instead of using the user's password. This way the user's password is never pass between the client and server.
 <--- ANSWER GOES HERE --->
 ```
 
@@ -55,14 +57,15 @@ Answer the following questions:
 ```js
 {
   "id": "1",
-  "username": "bruno",
-  "email": "bruno@ga.co"
+  "username": "HuanZeng",
+  "email": "huan.zeng1@gmail.com"
 }
 ```
 
 Paste your encoded JWT below:
 
 ```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6Ikh1YW5aZW5nIiwiZW1haWwiOiJodWFuLnplbmcxQGdtYWlsLmNvbSJ9.Na7oSLHBYtw48e8H0ke0G8GUm0YCB3jEoHUBciKRb5g
 <--- ANSWER GOES HERE --->
 ```
 
