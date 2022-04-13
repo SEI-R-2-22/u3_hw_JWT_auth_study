@@ -34,7 +34,8 @@ Answer the following questions:
 
 1. Why do we need authentication in our Web Apps?
 
-```So that we can have access to account specific data for individual users. Anything from credit card information to social security to job work.  
+```
+So that we can have access to account specific data for individual users. Anything from credit card information to social security to job work.  
 ```
 
 2. What is the point of a [JSON Web Token](https://jwt.io/introduction)? Why would we want to use it?
