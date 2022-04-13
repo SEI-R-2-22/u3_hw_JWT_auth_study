@@ -35,20 +35,24 @@ Answer the following questions:
 1. Why do we need authentication in our Web Apps?
 
 ```
+it helps with interactions between the person and web app, restricts users from sensitive content
+we need authentication so th
 <--- ANSWER GOES HERE --->
 ```
 
 2. What is the point of a [JSON Web Token](https://jwt.io/introduction)? Why would we want to use it?
 
-```
+``
+a JWT is used to encrypt data, make it not as easy to be tampered with, also it is compact & can be sent with post
 <--- ANSWER GOES HERE --->
-```
+
+````
 
 3. Why would we hash a user's password when they sign up? What's the point?
 
-```
+```because passwords should neveer be stores in DB, & there is no need for plain text passwords to be saved
 <--- ANSWER GOES HERE --->
-```
+````
 
 4. Go [here](https://jwt.io). Create a JWT with the following as the payload (feel free to change the username/email):
 
@@ -63,6 +67,7 @@ Answer the following questions:
 Paste your encoded JWT below:
 
 ```
+eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6ImJydW5vIiwiZW1haWwiOiJicnVub0BnYS5jbyJ9.YfnkU1z5pJ7aSDOv6Mg_h1aA-tRrEq6T-0QhRldzlp4
 <--- ANSWER GOES HERE --->
 ```
 
