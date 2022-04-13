@@ -35,19 +35,19 @@ Answer the following questions:
 1. Why do we need authentication in our Web Apps?
 
 ```
-<--- ANSWER GOES HERE --->
+To ensure the identity of the user. Once authentication is established, authorization can begin
 ```
 
 2. What is the point of a [JSON Web Token](https://jwt.io/introduction)? Why would we want to use it?
 
 ```
-<--- ANSWER GOES HERE --->
+It enables a server to establish the identity of a user. The server can then control and authorize actions to that user when they submit requests. JSON web tokens build upon this premise and protect the server from unauthentic requests by using a hashed token that is difficult to replicate
 ```
 
 3. Why would we hash a user's password when they sign up? What's the point?
 
 ```
-<--- ANSWER GOES HERE --->
+Hashing protects the password from unauthorized viewing.
 ```
 
 4. Go [here](https://jwt.io). Create a JWT with the following as the payload (feel free to change the username/email):
@@ -63,7 +63,7 @@ Answer the following questions:
 Paste your encoded JWT below:
 
 ```
-<--- ANSWER GOES HERE --->
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6ImJydW5vIiwiZW1haWwiOiJicnVub0BnYS5jbyJ9.SNHM7vL6ehTkvM4Rg-IH-SanpKkCN3KtQ68qESpkcZU
 ```
 
 **Bonus**: Read https://blog.angular-university.io/angular-jwt
