@@ -36,18 +36,21 @@ Answer the following questions:
 
 ```
 <--- ANSWER GOES HERE --->
+To verify the identity of a user
 ```
 
 2. What is the point of a [JSON Web Token](https://jwt.io/introduction)? Why would we want to use it?
 
 ```
 <--- ANSWER GOES HERE --->
+It keeps the password's info very secret and secure
 ```
 
 3. Why would we hash a user's password when they sign up? What's the point?
 
 ```
 <--- ANSWER GOES HERE --->
+To verify the integrity of your password
 ```
 
 4. Go [here](https://jwt.io). Create a JWT with the following as the payload (feel free to change the username/email):
@@ -55,8 +58,8 @@ Answer the following questions:
 ```js
 {
   "id": "1",
-  "username": "bruno",
-  "email": "bruno@ga.co"
+  "username": "Abdullah",
+  "email": "Abdullah@ga.co"
 }
 ```
 
@@ -64,6 +67,7 @@ Paste your encoded JWT below:
 
 ```
 <--- ANSWER GOES HERE --->
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6IkFiZHVsbGFoIiwiZW1haWwiOiJBYmR1bGxhaEBnYS5jbyJ9.7xYrLPivgZ9qymUwkzyclM_D4M5GkhgFN-JqneH4W3I
 ```
 
 **Bonus**: Read https://blog.angular-university.io/angular-jwt
